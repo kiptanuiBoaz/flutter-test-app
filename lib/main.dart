@@ -6,5 +6,12 @@ void main() => runApp(MaterialApp(
           title: const Text("My App"),
           centerTitle: true,
         ),
+        body: const Center(
+          child: Text("hello this is flutter"),
+        ),
+        floatingActionButton: const FloatingActionButton(
+          onPressed: (),
+          child: Text("Click"),
+        ),
       ),
     ));
