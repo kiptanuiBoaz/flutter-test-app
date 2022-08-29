@@ -9,9 +9,11 @@ void main() => runApp(MaterialApp(
         body: const Center(
           child: Text("hello this is flutter"),
         ),
-        floatingActionButton: const FloatingActionButton(
-          onPressed: (),
-          child: Text("Click"),
+        floatingActionButton: FloatingActionButton(
+          child: const Text("Click"),
+          onPressed: () {
+            debugPrint('You pressed the button.');
+          },
         ),
       ),
     ));
