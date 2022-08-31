@@ -5,6 +5,7 @@ void main() => runApp(MaterialApp(
         appBar: AppBar(
           title: const Text("My App"),
           centerTitle: true,
+          backgroundColor: Colors.green[600],
         ),
         body: const Center(
           child: Text("hello this is flutter"),
@@ -14,6 +15,7 @@ void main() => runApp(MaterialApp(
           onPressed: () {
             debugPrint('You pressed the button.');
           },
+          backgroundColor: Colors.green[600],
         ),
       ),
     ));
