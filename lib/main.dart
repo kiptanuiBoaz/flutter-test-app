@@ -8,7 +8,15 @@ void main() => runApp(MaterialApp(
           backgroundColor: Colors.green[600],
         ),
         body: const Center(
-          child: Text("hello this is flutter"),
+          child: Text(
+            "hello this is flutter",
+            style: TextStyle(
+              fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 2.0,
+              color: Colors.grey[600],
+            ),
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           child: const Text("Click"),
